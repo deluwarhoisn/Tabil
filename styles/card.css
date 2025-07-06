@@ -1,0 +1,39 @@
+body{
+    max-width: 1170px;
+    /* background-color: bisque; */
+    margin: 0 auto;
+}
+.card{
+   width: 300px; 
+    border: 2px solid tomato;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgb(77, 72, 72);
+}
+.card-container{
+    display: flex;
+    gap: 50px;
+}
+.card-container{
+    display: flex;
+}
+
+.card:hover{
+    background-color: aqua;
+}
+.card h3{
+    font-size: 1.25em;
+    font-weight: 700;
+}
+.card img{
+    width: 300px;
+    border-radius: 10px;
+   
+}
+.card button{
+    background-color: aqua;
+    padding: 10px 30px;
+    font-size: 1.25em;
+    border-radius: 10px;
+    cursor: pointer;
+}
